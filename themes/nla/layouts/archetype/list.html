@@ -1,0 +1,393 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<div id='app'>
+    <section class="page-header page-header-xs" style="padding-top: 20px">
+        <div class="container">
+
+            <h1 style="margin-top: 20px">АРХЕТИПЫ</h1>
+            <!--<span class="font-lato fs-18 hidden-xs-down">We believe in Simple &amp; Creative</span>-->
+
+        </div>
+    </section>
+    <section style="padding-top: 20px">
+        <div class="container">
+            <div id="portfolio" class="portfolio-gutter">
+                <form>
+                    <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="selectStatus">Энергостатус</label>
+                            <select class="form-control pointer" id="selectStatus" v-model='status'
+                                    @change="changeParams">
+                                <option value="">Все</option>
+                                <option value="king">Короли</option>
+                                <option value="queen">Дамы</option>
+                                <option value="knight">Рыцари</option>
+                                <option value="page">Пажи</option>
+                            </select>
+                        </div>
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="suit">Масть</label>
+                            <select class="form-control pointer" id="selectStatus" v-model='suit'
+                                    @change="changeParams">
+                                <option value="">Все</option>
+                                <option value="swords">Мечи</option>
+                                <option value="cups">Кубки</option>
+                                <option value="wands">Жезлы</option>
+                                <option value="pentacles">Пентакли</option>
+                            </select>
+                        </div>
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="quadr">Квадра</label>
+                            <select class="form-control pointer" id="quadr" v-model='quadr' @change="changeParams">
+                                <option value=0>Все</option>
+                                <option value=1>I</option>
+                                <option value=2>II</option>
+                                <option value=3>III</option>
+                                <option value=4>IV</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="currentTagSensIntuit">Сенсорика/Интуиция</label>
+                            <select class="form-control pointer" id="currentTagSensIntuit" v-model='sensIntuit'
+                                    @change="changeParams">
+                                <option value=''>Все</option>
+                                <option value='сенсорик'>сенсорик</option>
+                                <option value='интуит'>интуит</option>
+                            </select>
+                        </div>
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="currentTagEtikLogic">Этика/Логика</label>
+                            <select class="form-control pointer" id="currentTagEtikLogic" v-model='ethicLogic'
+                                    @change="changeParams">
+                                <option value=''>Все</option>
+                                <option value='этик'>этик</option>
+                                <option value='логик'>логик</option>
+                            </select>
+                        </div>
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="currentTagRacIrrac">Рациональность/Иррациональность</label>
+                            <select class="form-control pointer" id="currentTagRacIrrac" v-model='rationalIrrational'
+                                    @change="changeParams">
+                                <option value=''>Все</option>
+                                <option value='рационал'>рационал</option>
+                                <option value='иррационал'>иррационал</option>
+                            </select>
+                        </div>
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2" for="currentTagEcstrInrovert">Экстраверсия/Интроверсия</label>
+                            <select class="form-control pointer" id="currentTagEcstrInrovert"
+                                    v-model='extroIntro' @change="changeParams">
+                                <option value=''>Все</option>
+                                <option value='экстраверт'>экстраверт</option>
+                                <option value='интроверт'>интроверт</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                            <button class="btn btn-light btn-sm" @click.self.prevent='clearForm()'>сбросить выбор
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="row">
+                    <div v-if="currentSelectedList.length == 0" class="alert alert-secondary" role="alert">
+                        ТИМов с такими характеристиками не существует
+                    </div>
+                    <div v-for='item in currentSelectedList' :key='item.value'
+                         class="col-md-3 col-sm-3 mix design mix_all" style="display: block;  opacity: 1;">
+                        <div class="item-box"><!-- item -->
+
+                            <div class="item-box">
+                                <a :href="'/archetype/'+item.value">
+                                    <figure>
+                                        <img class="img-fluid" :src="tarotImg(item.value)" :alt="tarotImg(item.title)"
+                                             width="600"
+                                             height="399">
+                                    </figure>
+                                </a>
+
+                                <div class="item-box-desc">
+                                    <h3><a :href="'/archetype/'+item.value">[[item.title]]</a></h3>
+                                    <ul class="list-inline categories m-0">
+                                        <li><a href="#">[[item.quadr]] квадра</a></li>
+                                        <li v-for='tag in item.tags' :key='tag'><a href="#">[[tag]]</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div><!-- /item -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+    var app = new Vue({
+        delimiters: ['[[', ']]'],
+        el: '#app',
+        computed: {
+            currentSelectedList: function () {
+                return this.timList.filter(item => {
+                    if (this.status != '' && item.status != this.status) {
+                        return false
+                    }
+                    if (this.suit != '' && item.suit != this.suit) {
+                        return false
+                    }
+                    if (this.quadr != 0 && item.quadr != this.quadr) {
+                        return false
+                    }
+                    if (this.sensIntuit != '' && !item.tags.includes(this.sensIntuit)) {
+                        return false
+                    }
+                    if (this.ethicLogic != '' && !item.tags.includes(this.ethicLogic)) {
+                        return false
+                    }
+                    if (this.rationalIrrational != '' && !item.tags.includes(this.rationalIrrational)) {
+                        return false
+                    }
+                    if (this.extroIntro != '' && !item.tags.includes(this.extroIntro)) {
+                        return false
+                    }
+                    return true
+                })
+            }
+        },
+        data: {
+            status: '',
+            suit: '',
+            quadr: 0,
+            sensIntuit: '',
+            ethicLogic: '',
+            rationalIrrational: '',
+            extroIntro: '',
+            timList: [
+                {
+                    value: 'knight_of_swords',
+                    title: 'Рыцарь Мечей - Дон Кихот',
+                    status: 'knight',
+                    suit: 'swords',
+                    quadr: 1,
+                    tags: ['интуит', 'логик', 'экстраверт', 'иррационал'],
+
+                },
+                {
+                    value: 'queen_of_cups',
+                    title: 'Дама Кубков - Дюма',
+                    status: 'queen',
+                    suit: 'cups',
+                    quadr: 1,
+                    tags: ['сенсорик', 'этик', 'интроверт', 'иррационал'],
+                },
+                {
+                    value: 'king_of_wands',
+                    title: 'Король Жезлов - Гюго',
+                    status: 'king',
+                    suit: 'wands',
+                    quadr: 1,
+                    tags: ['этик', 'сенсорик', 'экстраверт', 'рационал'],
+                },
+                {
+                    value: 'page_of_pentacles',
+                    title: 'Паж Пентаклей - Робеспьер',
+                    status: 'page',
+                    suit: 'pentacles',
+                    quadr: 1,
+                    tags: ['логик', 'интуит', 'интроверт', 'рационал'],
+                },
+                {
+                    value: 'knight_of_wands',
+                    title: 'Рыцарь Жезлов - Гамлет',
+                    status: 'knight',
+                    suit: 'wands',
+                    quadr: 2,
+                    tags: ['этик', 'интуит', 'экстраверт', 'рационал'],
+                },
+                {
+                    value: 'queen_of_pentacles',
+                    title: 'Дама Пентаклей - Максим',
+                    status: 'queen',
+                    suit: 'pentacles',
+                    quadr: 2,
+                    tags: ['логик', 'сенсорик', 'интроверт', 'рационал'],
+                },
+                {
+                    value: 'king_of_swords',
+                    title: 'Король Мечей - Жуков',
+                    status: 'king',
+                    suit: 'swords',
+                    quadr: 2,
+                    tags: ['сенсорик', 'логик', 'экстраверт', 'иррационал'],
+                },
+                {
+                    value: 'page_of_cups',
+                    title: 'Паж Кубков - Есенин',
+                    status: 'page',
+                    suit: 'cups',
+                    quadr: 2,
+                    tags: ['интуит', 'этик', 'интроверт', 'иррационал'],
+                },
+                {
+                    value: 'knight_of_pentacles',
+                    title: 'Рыцарь Пентаклей - Джек',
+                    status: 'knight',
+                    suit: 'pentacles',
+                    quadr: 3,
+                    tags: ['логик', 'интуит', 'экстраверт', 'рационал'],
+                },
+                {
+                    value: 'queen_of_wands',
+                    title: 'Дама Жезлов - Драйзер',
+                    status: 'queen',
+                    suit: 'wands',
+                    quadr: 3,
+                    tags: ['этик', 'сенсорик', 'интроверт', 'рационал'],
+                },
+                {
+                    value: 'king_of_cups',
+                    title: 'Король Кубков - Наполеон',
+                    status: 'king',
+                    suit: 'cups',
+                    quadr: 3,
+                    tags: ['сенсорик', 'этик', 'экстраверт', 'иррационал'],
+                },
+                {
+                    value: 'page_of_swords',
+                    title: 'Паж Мечей - Бальзак',
+                    status: 'page',
+                    suit: 'swords',
+                    quadr: 3,
+                    tags: ['интуит', 'логик', 'интроверт', 'иррационал'],
+                },
+                {
+                    value: 'knight_of_cups',
+                    title: 'Рыцарь Кубков - Гексли',
+                    status: 'knight',
+                    suit: 'cups',
+                    quadr: 4,
+                    tags: ['интуит', 'этик', 'экстраверт', 'иррационал'],
+                },
+                {
+                    value: 'queen_of_swords',
+                    title: 'Дама Мечей - Габен',
+                    status: 'queen',
+                    suit: 'swords',
+                    quadr: 4,
+                    tags: ['сенсорик', 'логик', 'интроверт', 'иррационал'],
+                },
+                {
+                    value: 'king_of_pentacles',
+                    title: 'Король Пентаклей - Штирлиц',
+                    status: 'king',
+                    suit: 'pentacles',
+                    quadr: 4,
+                    tags: ['логик', 'сенсорик', 'экстраверт', 'рационал'],
+                },
+                {
+                    value: 'page_of_wands',
+                    title: 'Паж Жезлов - Достоевский',
+                    status: 'page',
+                    suit: 'wands',
+                    quadr: 4,
+                    tags: ['этик', 'интуит', 'интроверт', 'рационал'],
+                },
+            ]
+        },
+        watch: {
+            quadr: function () {
+                this.clearSelectedTags()
+            },
+            suit: function (val) {
+                this.clearSelectedTags()
+                if (val == 'swords') {
+                    this.ethicLogic = 'логик'
+                    this.rationalIrrational = 'иррационал'
+                }
+                if (val == 'pentacles') {
+                    this.ethicLogic = 'логик'
+                    this.rationalIrrational = 'рационал'
+                }
+                if (val == 'cups') {
+                    this.ethicLogic = 'этик'
+                    this.rationalIrrational = 'иррационал'
+                }
+                if (val == 'wands') {
+                    this.ethicLogic = 'этик'
+                    this.rationalIrrational = 'рационал'
+                }
+            },
+            status: function (val) {
+                this.clearSelectedTags()
+                if (val == 'king') {
+                    this.sensIntuit = 'сенсорик'
+                    this.extroIntro = 'экстраверт'
+                }
+                if (val == 'queen') {
+                    this.sensIntuit = 'сенсорик'
+                    this.extroIntro = 'интроверт'
+                }
+                if (val == 'knight') {
+                    this.sensIntuit = 'интуит'
+                    this.extroIntro = 'экстраверт'
+                }
+                if (val == 'page') {
+                    this.sensIntuit = 'интуит'
+                    this.extroIntro = 'интроверт'
+                }
+            }
+        },
+        methods: {
+            tarotImg(name) {
+                return `/img/tarot/${name}_lg.jpg`
+            },
+            clearSelectedTags() {
+                this.sensIntuit = ''
+                this.ethicLogic = ''
+                this.rationalIrrational = ''
+                this.extroIntro = ''
+            },
+            clearForm() {
+                this.status = ''
+                this.suit = ''
+                this.quadr = 0
+                this.clearSelectedTags()
+                this.changeParams()
+            },
+            changeParams() {
+                // метод для записи текущих параметров в url
+                let params = []
+                this.status != '' ? params.push('status=' + this.status) : ''
+                this.suit != '' ? params.push('suit=' + this.suit) : ''
+                this.quadr != '' ? params.push('quadr=' + this.quadr) : ''
+                this.sensIntuit != '' ? params.push('sensIntuit=' + this.sensIntuit) : ''
+                this.ethicLogic != '' ? params.push('ethicLogic=' + this.ethicLogic) : ''
+                this.rationalIrrational != '' ? params.push('rationalIrrational=' + this.rationalIrrational) : ''
+                this.extroIntro != '' ? params.push('extroIntro=' + this.extroIntro) : ''
+                let newurl = window.location.protocol + '//' + window.location.host + window.location.pathname;
+                if (params.length > 0) {
+                    newurl = newurl + '?' + params.join('&');
+                }
+                window.history.pushState({path: newurl}, '', newurl);
+            }
+        },
+        created() {
+            if (window.location.search) {
+                window.location.search.replace('?', '').split('&').map(v => {
+                    let params = v.split('=')
+                    if (params.length == 2) {
+                        this[params[0]] = decodeURI(params[1])
+                    }
+                })
+            }
+        }
+    })
+</script>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,80 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<!--{{if .Resources.GetMatch "images/banner*" }}-->
+<!--{{ $original1 := .Resources.GetMatch "images/title*"}}-->
+<!--{{ with ($original1.Fill "400x400") }}-->
+<!--<img class="img-fluid" src="{{.RelPermalink}}" width="400" height="400" alt="{{ .Title }}"/>-->
+<!--{{ end }}-->
+<!--{{else}}-->
+<!--<p>"images/title*"not found</p>-->
+<!--{{ end }}-->
+
+<!--<section style="padding-bottom: 0!important; background-color: #d8d8d8">-->
+<section class="page-header page-header-xs">
+
+    <div class="container text-center">
+        <p class="mt-30 mb-0">курс</p>
+        <h3>
+            {{.Title}}
+        </h3>
+        <!--<span class="font-lato fs-18 hidden-xs-down">We believe in Simple &amp; Creative</span>-->
+
+    </div>
+
+</section>
+
+<section class="b-0" style="padding-top: 50px">
+    <div class="container">
+
+        <div class="row justify-content-md-center">
+
+
+            <div class="col-lg-6">
+
+                <!--<div class="hidden-xs-down mb-30">-->
+                    <!--<h1 class="m-0 fs-25">PROJECT TITLE</h1>-->
+                    <!--<h6>JUNE 29, 2017 &ndash; PRESENT</h6>-->
+                <!--</div>-->
+
+                <p>{{.Content}}</p>
+
+
+                <div class="heading-title heading-border heading-color mt-0">
+                    <h2 class="fs-18 fw-400">BEYOND THE FUTURE</h2>
+                    <p class="fs-13">WE FLY, WE NEVER FALL</p>
+                </div>
+                <a href="#" class="btn btn-xlg btn-default btn-bordered btn-block mt-50">ПЕРЕЙТИ К КУРСУ</a>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                {{ with .Resources.Match "images/screenshot*" }}
+                <div class="lightbox" data-plugin-options='{"delegate": "a", "gallery": {"enabled": true}}'>
+
+                    {{ range . }}
+                    <a href="{{ .RelPermalink }}" class="image-hover-plus image-hover-zoom image-hover-overlay mb-60">
+                        <img class="img-fluid" src="{{ .RelPermalink }}" alt=""/>
+                        <i class="icon-hover-plus"></i>
+                    </a>
+                    {{ end }}
+
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<div class="container">-->
+    <!--<div class="row">-->
+        <!--<div class="col-md-6">-->
+            <!--<h1>{{ .Title }}</h1>-->
+            <!--<small>{{ .Date.Format "Mon, Jan 2, 2006" }}</small>-->
+            <!--{{ .Content }}-->
+        <!--</div>-->
+
+    <!--</div>-->
+<!--</div>-->
+
+{{ partial "footer.html" . }}

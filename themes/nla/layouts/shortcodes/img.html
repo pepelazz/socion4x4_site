@@ -1,0 +1,12 @@
+{{ $img := $.Page.Resources.GetMatch (.Get "name") }}
+
+{{ if $img }}
+<figure class='{{.Get "class"}}'>
+    <img src="{{ $img.RelPermalink }}" class="img-fluid" alt='{{ with .Get "alt"}}{{.}}{{else}}{{.Get "title"}}{{end}}'/>
+    <!--<figcaption>{{.Get "title"}}</figcaption>-->
+</figure>
+{{ else }}
+<pre>image '{{.Get "name"}}' not found!!!</pre>
+{{ end }}
+
+

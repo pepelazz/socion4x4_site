@@ -1,0 +1,78 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+
+<section class="page-header page-header-xs">
+    <div class="container mt-20">
+
+        <h1><a href="/course">КУРСЫ</a>
+            <span class="font-lato fs-18 fw-300">{{ .Data.Term }}</span>
+        </h1>
+
+        {{ range $name, $items := .Site.Taxonomies.coursetags }}
+        <span class="badge badge-info"><a href="{{ $.Site.BaseURL }}coursetags/{{ $name | urlize | lower }}"
+                                          style="color: white">{{ $name }} &nbsp;<small>{{ len $items }}</small></a></span>
+        {{ end }}
+
+    </div>
+</section>
+<!-- /PAGE HEADER -->
+
+{{ $paginator := .Paginate (where .Data.Pages "Type" "course") }}
+
+<!-- -->
+<section class="p-0">
+    <div class="container mt-20">
+
+        <!-- Portfolio Items -->
+        <div id="portfolio" class="portfolio-gutter">
+
+            <div class="row">
+
+                {{ range $paginator.Pages }}
+                {{ if eq .Type "course"}}
+
+                <div class="col-md-2 col-sm-2"><!-- item -->
+
+                    <div class="item-box">
+                        <figure>
+                            <a href="{{ .Permalink }}">
+                                <figure>
+                                    {{if .Resources.GetMatch "images/title*" }}
+                                    {{ $original1 := .Resources.GetMatch "images/title*"}}
+                                    {{ with ($original1.Fill "300x300") }}
+                                    <img class="img-fluid" src="{{.RelPermalink}}" width="300" height="300"
+                                         alt="{{ .Title }}"/>
+                                    {{ end }}
+                                    {{else}}
+                                    <p>"images/title*"not found</p>
+                                    {{ end }}
+
+                                </figure>
+                            </a>
+                        </figure>
+
+                        <div class="item-box-desc" style="padding-top: 5px!important; padding-left: 0!important;">
+                            <ul class="list-inline  m-0">
+                                {{ range .Params.coursetags }}
+                                <li><span class="badge badge-info"><a href="/coursetags/{{ . | urlize }}"
+                                                                      style="color: white">{{ . }}</a></span></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div><!-- /item -->
+
+                {{ end }}
+                {{ end }}
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "pagination.html" . }}
+
+{{ partial "footer.html" . }}

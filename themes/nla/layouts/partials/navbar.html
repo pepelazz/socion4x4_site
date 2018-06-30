@@ -1,0 +1,52 @@
+<div id="header" class="navbar-toggleable-md clearfix scroll header-md">
+
+    <!-- TOP NAV -->
+    <header id="topNav" class="">
+        <div class="container">
+
+            <!-- Mobile Menu Button -->
+            <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Logo -->
+            <a class="logo float-left" href="/">
+                <img src="/img/logo.png" alt="" />
+            </a>
+
+            <div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark" data-switch-default="submenu-dark" data-switch-scroll="">
+                <nav class="nav-main">
+                    <ul id="topMain" class="nav nav-pills">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                    <a href="{{.URL}}">{{ .Name }} </a>
+                    </li>
+                    {{end}}
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+</div>
+
+
+<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">-->
+    <!--<a class="navbar-brand" href="/">{{.Site.Title}}</a>-->
+    <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"-->
+            <!--aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+        <!--<span class="navbar-toggler-icon"></span>-->
+    <!--</button>-->
+    <!--<div class="collapse navbar-collapse" id="navbarNav">-->
+        <!--<ul class="navbar-nav">-->
+            <!--{{ $currentPage := . }}-->
+            <!--{{ range .Site.Menus.main }}-->
+            <!--<li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">-->
+                <!--<a class="nav-link" href="{{.URL}}">{{ .Pre }} <span>{{ .Name }}</span></a>-->
+            <!--</li>-->
+            <!--{{end}}-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</nav>-->
+
