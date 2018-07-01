@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7988583a-20af-46ac-8cef-fde09be68148" name="Default" comment="" />
+    <list default="true" id="7988583a-20af-46ac-8cef-fde09be68148" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_cups/images/after_first_func_section.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_cups/images/after_fourth_func_section.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_cups/images/after_second_func_section.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_cups/images/after_third_func_section.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_cups/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img_source/squares.sketch" afterPath="$PROJECT_DIR$/img_source/squares.sketch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/nla/layouts/post/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/nla/layouts/archetype/list.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,12 +92,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_cups/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -157,6 +168,9 @@
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -185,6 +199,7 @@
         <option value="$PROJECT_DIR$/themes/nla/static/assets/css/my-style-new.css" />
         <option value="$PROJECT_DIR$/themes/nla/layouts/shortcodes/img.html" />
         <option value="$PROJECT_DIR$/content/archetype/knight_of_swords/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/queen_of_cups/index.md" />
       </list>
     </option>
   </component>
@@ -499,6 +514,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -525,6 +541,39 @@
               <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
               <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="archetype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="archetype" type="462c0819:PsiDirectoryNode" />
+              <item name="knight_of_swords" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="archetype" type="462c0819:PsiDirectoryNode" />
+              <item name="queen_of_cups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="archetype" type="462c0819:PsiDirectoryNode" />
+              <item name="queen_of_cups" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -547,11 +596,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/archetype" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/content/archetype/knight_of_swords" />
       <recent name="$PROJECT_DIR$/themes/nla/layouts/archetype" />
       <recent name="$PROJECT_DIR$/content/square" />
-      <recent name="$PROJECT_DIR$/themes/nla/layouts/square" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
@@ -663,12 +712,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530208561022</updated>
-      <workItem from="1530208562522" duration="26585000" />
+      <workItem from="1530208562522" duration="27255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26585000" />
+    <option name="totallyTimeSpent" value="27255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="25" width="1416" height="811" extended-state="0" />
@@ -682,7 +731,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1075,6 +1124,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_cups/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
