@@ -114,8 +114,7 @@
                                 <div class="item-box-desc">
                                     <h3><a :href="'/archetype/'+item.value">[[item.title]]</a></h3>
                                     <ul class="list-inline categories m-0">
-                                        <li><a href="#">[[item.quadr]] квадра</a></li>
-                                        <li v-for='tag in item.tags' :key='tag'><a href="#">[[tag]]</a></li>
+                                        <li v-for='tag in item.tagHref' :key='tag.link'><a :href="'?' + tag.link">[[tag.title]]</a></li>
                                     </ul>
                                 </div>
 
@@ -175,7 +174,7 @@
                     status: 'knight',
                     suit: 'swords',
                     quadr: 1,
-                    tags: ['интуит', 'логик', 'экстраверт', 'иррационал'],
+                    tags: ['рыцарь', 'мечи', 'интуит', 'логик', 'экстраверт', 'иррационал'],
 
                 },
                 {
@@ -184,7 +183,7 @@
                     status: 'queen',
                     suit: 'cups',
                     quadr: 1,
-                    tags: ['сенсорик', 'этик', 'интроверт', 'иррационал'],
+                    tags: ['дама', 'кубки', 'сенсорик', 'этик', 'интроверт', 'иррационал'],
                 },
                 {
                     value: 'king_of_wands',
@@ -192,7 +191,7 @@
                     status: 'king',
                     suit: 'wands',
                     quadr: 1,
-                    tags: ['этик', 'сенсорик', 'экстраверт', 'рационал'],
+                    tags: ['король', 'жезлы','этик', 'сенсорик', 'экстраверт', 'рационал'],
                 },
                 {
                     value: 'page_of_pentacles',
@@ -200,7 +199,7 @@
                     status: 'page',
                     suit: 'pentacles',
                     quadr: 1,
-                    tags: ['логик', 'интуит', 'интроверт', 'рационал'],
+                    tags: ['паж', 'пентакли','логик', 'интуит', 'интроверт', 'рационал'],
                 },
                 {
                     value: 'knight_of_wands',
@@ -208,7 +207,7 @@
                     status: 'knight',
                     suit: 'wands',
                     quadr: 2,
-                    tags: ['этик', 'интуит', 'экстраверт', 'рационал'],
+                    tags: ['рыцарь', 'жезлы','этик', 'интуит', 'экстраверт', 'рационал'],
                 },
                 {
                     value: 'queen_of_pentacles',
@@ -216,7 +215,7 @@
                     status: 'queen',
                     suit: 'pentacles',
                     quadr: 2,
-                    tags: ['логик', 'сенсорик', 'интроверт', 'рационал'],
+                    tags: ['дама', 'пентакли','логик', 'сенсорик', 'интроверт', 'рационал'],
                 },
                 {
                     value: 'king_of_swords',
@@ -224,7 +223,7 @@
                     status: 'king',
                     suit: 'swords',
                     quadr: 2,
-                    tags: ['сенсорик', 'логик', 'экстраверт', 'иррационал'],
+                    tags: ['король', 'мечи','сенсорик', 'логик', 'экстраверт', 'иррационал'],
                 },
                 {
                     value: 'page_of_cups',
@@ -232,7 +231,7 @@
                     status: 'page',
                     suit: 'cups',
                     quadr: 2,
-                    tags: ['интуит', 'этик', 'интроверт', 'иррационал'],
+                    tags: ['паж', 'кубки','интуит', 'этик', 'интроверт', 'иррационал'],
                 },
                 {
                     value: 'knight_of_pentacles',
@@ -240,7 +239,7 @@
                     status: 'knight',
                     suit: 'pentacles',
                     quadr: 3,
-                    tags: ['логик', 'интуит', 'экстраверт', 'рационал'],
+                    tags: ['рыцарь', 'пентакли','логик', 'интуит', 'экстраверт', 'рационал'],
                 },
                 {
                     value: 'queen_of_wands',
@@ -248,7 +247,7 @@
                     status: 'queen',
                     suit: 'wands',
                     quadr: 3,
-                    tags: ['этик', 'сенсорик', 'интроверт', 'рационал'],
+                    tags: ['дама', 'жезлы','этик', 'сенсорик', 'интроверт', 'рационал'],
                 },
                 {
                     value: 'king_of_cups',
@@ -256,7 +255,7 @@
                     status: 'king',
                     suit: 'cups',
                     quadr: 3,
-                    tags: ['сенсорик', 'этик', 'экстраверт', 'иррационал'],
+                    tags: ['король', 'кубки','сенсорик', 'этик', 'экстраверт', 'иррационал'],
                 },
                 {
                     value: 'page_of_swords',
@@ -264,7 +263,7 @@
                     status: 'page',
                     suit: 'swords',
                     quadr: 3,
-                    tags: ['интуит', 'логик', 'интроверт', 'иррационал'],
+                    tags: ['паж', 'мечи', 'интуит', 'логик', 'интроверт', 'иррационал'],
                 },
                 {
                     value: 'knight_of_cups',
@@ -272,7 +271,7 @@
                     status: 'knight',
                     suit: 'cups',
                     quadr: 4,
-                    tags: ['интуит', 'этик', 'экстраверт', 'иррационал'],
+                    tags: ['рыцарь', 'кубки', 'интуит', 'этик', 'экстраверт', 'иррационал'],
                 },
                 {
                     value: 'queen_of_swords',
@@ -280,7 +279,7 @@
                     status: 'queen',
                     suit: 'swords',
                     quadr: 4,
-                    tags: ['сенсорик', 'логик', 'интроверт', 'иррационал'],
+                    tags: ['дама', 'мечи', 'сенсорик', 'логик', 'интроверт', 'иррационал'],
                 },
                 {
                     value: 'king_of_pentacles',
@@ -288,7 +287,7 @@
                     status: 'king',
                     suit: 'pentacles',
                     quadr: 4,
-                    tags: ['логик', 'сенсорик', 'экстраверт', 'рационал'],
+                    tags: ['король', 'пентакли','логик', 'сенсорик', 'экстраверт', 'рационал'],
                 },
                 {
                     value: 'page_of_wands',
@@ -296,7 +295,7 @@
                     status: 'page',
                     suit: 'wands',
                     quadr: 4,
-                    tags: ['этик', 'интуит', 'интроверт', 'рационал'],
+                    tags: ['паж', 'жезлы', 'этик', 'интуит', 'интроверт', 'рационал'],
                 },
             ]
         },
@@ -375,16 +374,89 @@
                     newurl = newurl + '?' + params.join('&');
                 }
                 window.history.pushState({path: newurl}, '', newurl);
+            },
+            addTagHref(tags) {
+                let arr = []
+                for (let t of tags) {
+                    switch (t) {
+                        case 'интуит':
+                            arr.push({link:"sensIntuit=интуит", title:"интуит"})
+                            break
+                        case 'сенсорик':
+                            arr.push({link:"sensIntuit=сенсорик", title:"сенсорик"})
+                            break
+                        case 'интроверт':
+                            arr.push({link:"extroIntro=интроверт", title:"интроверт"})
+                            break
+                        case 'экстраверт':
+                            arr.push({link:"extroIntro=экстроверт", title:"экстраверт"})
+                            break
+                        case 'этик':
+                            arr.push({link:"ethicLogic=этик", title:"этик"})
+                            break
+                        case 'логик':
+                            arr.push({link:"ethicLogic=логик", title:"логик"})
+                            break
+                        case 'рационал':
+                            arr.push({link:"rationalIrrational=рационал", title:"рационал"})
+                            break
+                        case 'иррационал':
+                            arr.push({link:"rationalIrrational=иррационал", title:"иррационал"})
+                            break
+                        case 'I квадра':
+                            arr.push({link:"quadr=1", title:"I квадра"})
+                            break
+                        case 'II квадра':
+                            arr.push({link:"quadr=2", title:"II квадра"})
+                            break
+                        case 'III квадра':
+                            arr.push({link:"quadr=3", title:"III квадра"})
+                            break
+                        case 'IV квадра':
+                            arr.push({link:"quadr=4", title:"IV квадра"})
+                            break
+                        case 'король':
+                            arr.push({link:"status=king", title:"король"})
+                            break
+                        case 'дама':
+                            arr.push({link:"status=queen", title:"дама"})
+                            break
+                        case 'рыцарь':
+                            arr.push({link:"status=knight", title:"рыцарь"})
+                            break
+                        case 'паж':
+                            arr.push({link:"status=page", title: "паж"})
+                            break
+                        case 'жезлы':
+                            arr.push({link:"suit=wands", title:"жезлы"})
+                            break
+                        case 'мечи':
+                            arr.push({link:"suit=swords", title:"мечи"})
+                            break
+                        case 'пентакли':
+                            arr.push({link:"suit=pentacles", title:"пентакли"})
+                            break
+                        case 'кубки':
+                            arr.push({link:"suit=cups", title:"кубки"})
+                            break
+                    }
+                }
+                return arr
             }
         },
         created() {
             if (window.location.search) {
                 window.location.search.replace('?', '').split('&').map(v => {
-                    let params = v.split('=')
+                    let params = decodeURI(v).replace(/%26/gi, '&').replace(/%3D/gi, '=').split('=')
                     if (params.length == 2) {
                         this[params[0]] = decodeURI(params[1])
                     }
                 })
+            }
+            // добавляем к тимам тэги со ссылками
+            for (let tim of this.timList) {
+                tim.tagHref = this.addTagHref(tim.tags)
+//                console.log('tim.tagHref:', tim.tagHref)
             }
         }
     })

@@ -15,10 +15,12 @@
 
     <div class="container text-center">
         <p class="mt-30 mb-0">архетип</p>
-        <h3 style="margin-bottom: 10px">
+        <h3 style="margin-bottom: 10px" id="archetype-title">
             {{.Title}}
         </h3>
-        <span class="font-lato fs-18 hidden-xs-down">{{.Params.subtitle}}</span>
+        {{ range .Params.subtitle }}
+            <a href="../../archetype/?{{index . 0}}" class="badge badge-info">{{ index . 1 }}</a>
+        {{ end }}
 
     </div>
 
@@ -37,6 +39,14 @@
                 <!--<h6>JUNE 29, 2017 &ndash; PRESENT</h6>-->
                 <!--</div>-->
 
+                {{ with .Resources.Match "images/square*" }}
+                <div>
+                    {{ range . }}
+                    <img class="img-fluid" src="{{ .RelPermalink }}" alt='{{$Title}}'/>
+                    {{ end }}
+                </div>
+                {{ end }}
+
                 <p>{{.Content}}</p>
 
 
@@ -54,13 +64,13 @@
                     <img class="img-fluid" src="/img/tarot/{{.Params.titleEn}}_lg.jpg" alt='{{$Title}}' style="display: block; margin: 0 auto; max-width: 200px">
                 </div>
 
-                {{ with .Resources.Match "images/square*" }}
-                <div>
-                    {{ range . }}
-                    <img class="img-fluid" src="{{ .RelPermalink }}" alt='{{$Title}}'/>
-                    {{ end }}
-                </div>
-                {{ end }}
+                <!--{{ with .Resources.Match "images/square*" }}-->
+                <!--<div>-->
+                    <!--{{ range . }}-->
+                    <!--<img class="img-fluid" src="{{ .RelPermalink }}" alt='{{$Title}}'/>-->
+                    <!--{{ end }}-->
+                <!--</div>-->
+                <!--{{ end }}-->
             </div>
         </div>
     </div>

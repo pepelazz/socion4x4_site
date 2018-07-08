@@ -5,6 +5,10 @@
     <title>Боевая соционика</title>
     <meta name="Боевая соционика" content="" />
 
+    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}"/>
+    <meta name="robots" content="noodp"/>
+    <link rel="canonical" href="{{ .Permalink }}" />
+
     <!-- mobile settings -->
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
