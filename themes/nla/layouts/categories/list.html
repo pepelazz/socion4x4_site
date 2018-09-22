@@ -1,0 +1,93 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<!--<div class="container">-->
+    <!--<div class="row">-->
+        <!--<div class="col-md-6">-->
+            <!--<h1>posts</h1>-->
+            <!--<ul class="list-group">-->
+                <!--{{ range first 10 .Data.Pages }}-->
+                <!--{{ if eq .Type "post"}}-->
+                <!--<a href="{{ .Permalink }}" class="list-group-item list-group-item-action">{{ .Title }}</a>-->
+                <!--{{ end }}-->
+                <!--{{ end }}-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<section class="page-header page-header-xs">
+    <div class="container mt-20">
+
+        <h1>Статьи</h1>
+
+        {{ range $name, $items := .Site.Taxonomies.categories }}
+        <span class="badge badge-info"><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}" style="color: white">{{ $name }} &nbsp;<small>{{ len $items }}</small></a></span>
+        {{ end }}
+
+    </div>
+</section>
+<!-- /PAGE HEADER -->
+
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+
+<!-- -->
+<section class="p-0 mb-40 post-list">
+    <div class="container mt-20">
+
+
+        <!-- Portfolio Items -->
+        <div id="portfolio" class="portfolio-gutter">
+
+            <div class="row">
+
+                {{ range $paginator.Pages }}
+                {{ if eq .Type "post"}}
+
+                <div class="col-md-3 col-sm-4"><!-- item -->
+
+                    <div class="item-box">
+                        <figure>
+                            <a href="{{ .Permalink }}">
+                                <figure>
+                                    {{if .Resources.GetMatch "images/title*" }}
+                                    {{ $original1 := .Resources.GetMatch "images/title*"}}
+                                    {{ with ($original1.Fill "400x400") }}
+                                    <img class="img-fluid" src="{{.RelPermalink}}" width="400" height="400" alt="{{ .Title }}"/>
+                                    {{ end }}
+                                    {{else}}
+                                    <p>"images/title*"not found</p>
+                                    {{ end }}
+
+                                </figure>
+                            </a>
+                        </figure>
+                        <div class="item-heading">{{.Title}}</div>
+                        <div class="item-desc"><small>{{.Description}}</small></div>
+
+                        <div class="item-box-desc" style="padding-top: 5px!important; padding-left: 0!important;">
+                            <ul class="list-inline  m-0">
+                                {{ range .Params.categories }}
+                                <li><span class="badge badge-info"><a href="/categories/{{ . | urlize }}" style="color: white">{{ . }}</a></span></li>
+                                {{ end }}
+                                {{ range .Params.tags }}
+                                <li><span class="badge badge-info"><a href="/tags/{{ . | urlize }}" style="color: white">{{ . }}</a></span></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div><!-- /item -->
+
+                {{ end }}
+                {{ end }}
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{{ partial "pagination.html" . }}
+
+{{ partial "footer.html" . }}

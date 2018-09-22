@@ -1,4 +1,4 @@
-baseURL = "http://edubot.pro/"
+baseURL = "http://socion4x4.ru/"
 languageCode = "en-us"
 title = "Боевая соционика"
 theme = "nla"
@@ -6,17 +6,17 @@ MetaDataFormat = "toml"
 Paginate = 10
 
 [taxonomies]
+    category = "categories"
     tag = "tags"
-    coursetag = "coursetags"
 
 [[menu.main]]
     name = "АРХЕТИПЫ"
     weight = -100
     url = "/archetype/"
-#[[menu.main]]
-#    name = "БЛОГ"
-#    weight = -100
-#    url = "/post/"
+[[menu.main]]
+    name = "СТАТЬИ"
+    weight = -100
+    url = "/post/"
 #[[menu.main]]
 #    name = "КУРСЫ"
 #    weight = -100

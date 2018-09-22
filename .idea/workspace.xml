@@ -2,111 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7988583a-20af-46ac-8cef-fde09be68148" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_cups/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_cups/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_cups/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_cups/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_pentacles/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_pentacles/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_pentacles/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_pentacles/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_swords/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_swords/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_swords/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_swords/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_cups/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_cups/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_cups/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_cups/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_pentacles/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_pentacles/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_pentacles/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_pentacles/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_wands/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_wands/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_wands/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_wands/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_cups/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_cups/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_cups/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_cups/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_swords/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_swords/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_swords/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_wands/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_wands/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_wands/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_wands/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_pentacles/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_pentacles/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_pentacles/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_pentacles/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_swords/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_swords/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_swords/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_swords/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_wands/images/after_first_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_wands/images/after_fourth_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_wands/images/after_second_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_wands/images/after_third_func_section.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_cups/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_pentacles/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/king_of_swords/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_cups/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_pentacles/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/knight_of_wands/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_cups/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_swords/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/page_of_wands/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_pentacles/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_swords/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/archetype/queen_of_wands/index.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/biz_words/images/title_hu6ff6841d03c23fa88eea656e7a0407d0_126951_300x300_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/biz_words/images/title_hu6ff6841d03c23fa88eea656e7a0407d0_126951_400x400_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/biz_words/images/title_hu7bf24cbd98644de68c8bfde7c073da96_32705_300x300_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/biz_words/images/title_hu7bf24cbd98644de68c8bfde7c073da96_32705_400x400_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/biz_words/images/title_hub1b129dc05da3ee560ebf6b5a716a248_88036_300x300_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/biz_words/images/title_hub1b129dc05da3ee560ebf6b5a716a248_88036_400x400_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu370a249910a98c403cdbe86d5e56c809_255941_100x0_resize_q75_box.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu370a249910a98c403cdbe86d5e56c809_255941_200x0_resize_q75_box.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu370a249910a98c403cdbe86d5e56c809_255941_500x0_resize_q75_box.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu370a249910a98c403cdbe86d5e56c809_255941_600x399_fill_q50_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu370a249910a98c403cdbe86d5e56c809_255941_600x399_fill_q5_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu370a249910a98c403cdbe86d5e56c809_255941_600x399_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu370a249910a98c403cdbe86d5e56c809_255941_600x399_fill_q75_box_topright.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu370a249910a98c403cdbe86d5e56c809_255941_700x0_resize_q75_box.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu77872acc14856270a0f29d4a44c8cac0_86424_300x300_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu77872acc14856270a0f29d4a44c8cac0_86424_400x400_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/chemical_table/images/title_hu77872acc14856270a0f29d4a44c8cac0_86424_600x399_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_1/images/title_hu5438825b9b6d1014226d20d231e650c2_84299_600x399_fill_q50_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_1/images/title_hu5438825b9b6d1014226d20d231e650c2_84299_600x399_fill_q5_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_1/images/title_hu5438825b9b6d1014226d20d231e650c2_84299_600x399_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_1/images/title_hu5438825b9b6d1014226d20d231e650c2_84299_600x399_fill_q75_box_topright.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_1/images/title_hub40613079d4c29153d5208148b7f50f1_43717_300x300_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_1/images/title_hub40613079d4c29153d5208148b7f50f1_43717_400x400_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_1/images/title_hub40613079d4c29153d5208148b7f50f1_43717_600x399_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_2/images/title_hu2e62f45e4011d2869e07d97e36bfcea1_52663_300x300_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_2/images/title_hu2e62f45e4011d2869e07d97e36bfcea1_52663_400x400_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_2/images/title_hu2e62f45e4011d2869e07d97e36bfcea1_52663_600x399_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_2/images/title_hu9de33d4d276fea9988d9b65aa705f916_62695_600x399_fill_q50_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_2/images/title_hu9de33d4d276fea9988d9b65aa705f916_62695_600x399_fill_q5_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_2/images/title_hu9de33d4d276fea9988d9b65aa705f916_62695_600x399_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/corp_fin_2/images/title_hu9de33d4d276fea9988d9b65aa705f916_62695_600x399_fill_q75_box_topright.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/geo_flags/images/title_hu9cc95037f811a9a8bbf6dfc6aadefd89_42235_600x399_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/total_dict/images/title_hu498368c02aaca80cb58a0e8dbdbe91bb_14634_300x300_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/total_dict/images/title_hu498368c02aaca80cb58a0e8dbdbe91bb_14634_400x400_fill_q75_box_smart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/total_dict/images/title_huf833ab2edc8816862361a355c179cee7_60101_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/about_suits/images/image_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/about_suits/images/image_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/about_suits/images/image_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/about_suits/images/image_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/about_suits/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/black_mirror_info_metabolism/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/distinguish_differences/images/fb_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/distinguish_differences/images/image_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/distinguish_differences/images/image_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/distinguish_differences/images/image_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/distinguish_differences/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/king_pokazivaet_pajam_kto_tut_glavnii/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/knight_pentacles_maid_in_america/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/knight_vs_cubameduza/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/man_made_of_people/images/image_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/man_made_of_people/images/image_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/man_made_of_people/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/mr_freeman/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/queen_game_in_necessary_roughness/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/queen_of_swords_film_territoria/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/rational_vs_irrationality/images/image_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/rational_vs_irrationality/images/image_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/rational_vs_irrationality/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/seven_psychopaths/images/image_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/seven_psychopaths/images/image_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/seven_psychopaths/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/tim_hunter/images/fb_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/tim_hunter/images/image_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/tim_hunter/images/image_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/tim_hunter/images/image_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/tim_hunter/images/image_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/tim_hunter/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/wisest_man/images/image_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/wisest_man/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/zhukov_v_roli_zhukova/images/image_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/zhukov_v_roli_zhukova/images/title.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/about_suits/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/black_mirror_info_metabolism/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/distinguish_differences/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/king_pokazivaet_pajam_kto_tut_glavnii/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/knight_pentacles_maid_in_america/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/knight_vs_cubameduza/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/man_made_of_people/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/mr_freeman/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/queen_game_in_necessary_roughness/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/queen_of_swords_film_territoria/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/queen_of_swords_smusli_u_drugih/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/rational_vs_irrationality/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/seven_psychopaths/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/tim_hunter/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/wisest_man/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/post/zhukov_v_roli_zhukova/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/nla/layouts/shortcodes/clear-vimeo.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/biz_words/images/head-banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/biz_words/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/biz_words/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/cooking_cheese_story/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/cooking_cheese_story/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/cooking_pasta_story/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/cooking_pasta_story/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/cooking_pelmeni_story/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/cooking_pelmeni_story/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/cooking_wine_story/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/cooking_wine_story/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/geo_flags/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/geo_flags/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/painting_of_artists/images/screenshot_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/painting_of_artists/images/screenshot_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/painting_of_artists/images/screenshot_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/painting_of_artists/images/screenshot_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/painting_of_artists/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/painting_of_artists/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/theory_goz_prava_defenitions/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/theory_goz_prava_defenitions/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/total_dict/images/title.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/course/total_dict/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/lock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/about_game/images/man.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/about_game/images/map.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/about_game/images/monk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/about_game/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/first.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/man.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/monk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/second.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/post/welcome.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/biz_words/images/title_hubd5f4184730ca4c0685751330d58e028_29147_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/biz_words/images/title_hubd5f4184730ca4c0685751330d58e028_29147_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/cooking_cheese_story/images/title_huca58731ff0b0e9e8a14c4d1be50acc5d_47778_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/cooking_cheese_story/images/title_huca58731ff0b0e9e8a14c4d1be50acc5d_47778_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/cooking_pasta_story/images/title_hu79cd8113875c771783411369f021021d_63853_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/cooking_pasta_story/images/title_hu79cd8113875c771783411369f021021d_63853_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/cooking_pelmeni_story/images/title_hufb590406f840a8b10cf74653f05f52c7_44199_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/cooking_pelmeni_story/images/title_hufb590406f840a8b10cf74653f05f52c7_44199_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/cooking_wine_story/images/title_hu2d12e572d13c79ff3e9aa68107600b8f_35156_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/cooking_wine_story/images/title_hu2d12e572d13c79ff3e9aa68107600b8f_35156_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/geo_flags/images/title_hu9cc95037f811a9a8bbf6dfc6aadefd89_42235_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/geo_flags/images/title_hu9cc95037f811a9a8bbf6dfc6aadefd89_42235_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/painting_of_artists/images/title_hub1b129dc05da3ee560ebf6b5a716a248_88036_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/painting_of_artists/images/title_hub1b129dc05da3ee560ebf6b5a716a248_88036_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/theory_goz_prava_defenitions/images/title_hu07953ce01a9bcc55aee91d2af942349f_36604_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/theory_goz_prava_defenitions/images/title_hu07953ce01a9bcc55aee91d2af942349f_36604_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/total_dict/images/title_hu38d796f248fc6a20311aaeeecb3cc8c4_54458_300x300_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/_gen/images/course/total_dict/images/title_hu38d796f248fc6a20311aaeeecb3cc8c4_54458_400x400_fill_q75_box_smart1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logonla.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/man.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/map.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/monk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/test.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/tmp_banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/nla/layouts/course/course.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/nla/layouts/course/single.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/nla/layouts/coursetag/list.html" afterPath="$PROJECT_DIR$/themes/nla/layouts/categories/list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/king_of_wands/images/after_third_func_section.jpg" afterPath="$PROJECT_DIR$/content/archetype/king_of_wands/images/after_third_func_section.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img_source/after_third_func_section.psd" afterPath="$PROJECT_DIR$/img_source/after_third_func_section.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img_source/squares.sketch" afterPath="$PROJECT_DIR$/img_source/squares.sketch" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/king_of_cups/index.md" afterPath="$PROJECT_DIR$/content/archetype/king_of_cups/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/king_of_pentacles/index.md" afterPath="$PROJECT_DIR$/content/archetype/king_of_pentacles/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/king_of_swords/index.md" afterPath="$PROJECT_DIR$/content/archetype/king_of_swords/index.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/king_of_wands/index.md" afterPath="$PROJECT_DIR$/content/archetype/king_of_wands/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/knight_of_cups/index.md" afterPath="$PROJECT_DIR$/content/archetype/knight_of_cups/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/knight_of_pentacles/index.md" afterPath="$PROJECT_DIR$/content/archetype/knight_of_pentacles/index.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/knight_of_swords/index.md" afterPath="$PROJECT_DIR$/content/archetype/knight_of_swords/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/knight_of_wands/index.md" afterPath="$PROJECT_DIR$/content/archetype/knight_of_wands/index.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/page_of_pentacles/index.md" afterPath="$PROJECT_DIR$/content/archetype/page_of_pentacles/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/page_of_swords/index.md" afterPath="$PROJECT_DIR$/content/archetype/page_of_swords/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/page_of_wands/index.md" afterPath="$PROJECT_DIR$/content/archetype/page_of_wands/index.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/queen_of_cups/index.md" afterPath="$PROJECT_DIR$/content/archetype/queen_of_cups/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nla/layouts/archetype/list.html" afterPath="$PROJECT_DIR$/themes/nla/layouts/archetype/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/queen_of_pentacles/index.md" afterPath="$PROJECT_DIR$/content/archetype/queen_of_pentacles/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/queen_of_swords/index.md" afterPath="$PROJECT_DIR$/content/archetype/queen_of_swords/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/archetype/queen_of_wands/index.md" afterPath="$PROJECT_DIR$/content/archetype/queen_of_wands/index.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nla/layouts/archetype/single.html" afterPath="$PROJECT_DIR$/themes/nla/layouts/archetype/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nla/layouts/partials/header.html" afterPath="$PROJECT_DIR$/themes/nla/layouts/partials/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nla/layouts/index.html" afterPath="$PROJECT_DIR$/themes/nla/layouts/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nla/layouts/partials/footer.html" afterPath="$PROJECT_DIR$/themes/nla/layouts/partials/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nla/layouts/post/post.html" afterPath="$PROJECT_DIR$/themes/nla/layouts/post/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nla/layouts/post/single.html" afterPath="$PROJECT_DIR$/themes/nla/layouts/post/single.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nla/static/assets/css/my-style-new.css" afterPath="$PROJECT_DIR$/themes/nla/static/assets/css/my-style-new.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,38 +150,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/nla/layouts/archetype/single.html">
+      <file leaf-file-name="deploy.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/nla/layouts/partials/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="345">
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_wands/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="112" lean-forward="false" selection-start-line="5" selection-start-column="112" selection-end-line="5" selection-end-column="112" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -158,12 +164,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>currentTim</find>
-      <find>экстро</find>
-      <find>интр</find>
-      <find>status</find>
-      <find>currentQuadr</find>
-      <find>currentSuit</find>
       <find>tagSensIntuit</find>
       <find>tagEcstrInrovert</find>
       <find>{{.</find>
@@ -185,6 +185,15 @@
       <find>images/after</find>
       <find>timList</find>
       <find>]</find>
+      <find>Pages</find>
+      <find>Permalink</find>
+      <find>меч</find>
+      <find>cups</find>
+      <find>swords</find>
+      <find>relref</find>
+      <find>target</find>
+      <find>за счет</find>
+      <find>you</find>
     </findStrings>
     <replaceStrings>
       <replace>a</replace>
@@ -200,14 +209,17 @@
       <replace>Король Пентаклей</replace>
       <replace>Паж Жезлов</replace>
       <replace>}</replace>
+      <replace>swords</replace>
+      <replace>pentacles</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/themes/nla/layouts/course</dir>
       <dir>$PROJECT_DIR$/themes</dir>
-      <dir>$PROJECT_DIR$/themes/nla/layouts</dir>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/content/archetype/knight_of_cups</dir>
       <dir>$PROJECT_DIR$/content/archetype</dir>
+      <dir>$PROJECT_DIR$/themes/nla/layouts</dir>
+      <dir>$PROJECT_DIR$/content/post</dir>
     </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.9.3/libexec" />
@@ -225,39 +237,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/nla/layouts/partials/navbar.html" />
-        <option value="$PROJECT_DIR$/themes/nla/layouts/index.html" />
-        <option value="$PROJECT_DIR$/themes/nla/layouts/square/square.html" />
-        <option value="$PROJECT_DIR$/themes/nla/layouts/_default/baseof.html" />
-        <option value="$PROJECT_DIR$/themes/nla/layouts/partials/footer.html" />
-        <option value="$PROJECT_DIR$/themes/nla/layouts/square/list.html" />
-        <option value="$PROJECT_DIR$/config.toml" />
-        <option value="$PROJECT_DIR$/themes/nla/layouts/course/single.html" />
-        <option value="$PROJECT_DIR$/static/my-style.css" />
         <option value="$PROJECT_DIR$/themes/nla/static/assets/css/mark.css" />
         <option value="$PROJECT_DIR$/themes/nla/static/assets/css/my-style.css" />
         <option value="$PROJECT_DIR$/themes/nla/layouts/shortcodes/img.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/themes/nla/static/assets/css/my-style-new.css" />
         <option value="$PROJECT_DIR$/themes/nla/layouts/archetype/list.html" />
-        <option value="$PROJECT_DIR$/themes/nla/layouts/archetype/single.html" />
-        <option value="$PROJECT_DIR$/content/archetype/king_of_pentacles/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/king_of_cups/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/king_of_swords/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/king_of_wands/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/knight_of_cups/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/knight_of_pentacles/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/knight_of_wands/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/knight_of_swords/index.md" />
         <option value="$PROJECT_DIR$/content/archetype/page_of_cups/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/page_of_pentacles/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/page_of_swords/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/page_of_wands/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/queen_of_cups/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/queen_of_pentacles/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/queen_of_swords/index.md" />
-        <option value="$PROJECT_DIR$/content/archetype/queen_of_wands/index.md" />
         <option value="$PROJECT_DIR$/themes/nla/layouts/partials/header.html" />
+        <option value="$PROJECT_DIR$/public/sitemap.xml" />
+        <option value="$PROJECT_DIR$/public/CNAME" />
+        <option value="$PROJECT_DIR$/themes/nla/layouts/archetype/single.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/content/post/queen_of_swords_smusli_u_drugih/index.md" />
+        <option value="$PROJECT_DIR$/content/post/knight_of_pentacles_vs_cubameduza/index.md" />
+        <option value="$PROJECT_DIR$/content/post/queen_of_swords_film_territoria/index.md" />
+        <option value="$PROJECT_DIR$/content/post/black_mirror_info_metabolism/index.md" />
+        <option value="$PROJECT_DIR$/themes/nla/layouts/index.html" />
+        <option value="$PROJECT_DIR$/themes/nla/layouts/categories/list.html" />
+        <option value="$PROJECT_DIR$/themes/nla/layouts/tag/list.html" />
+        <option value="$PROJECT_DIR$/content/post/mr_freeman/index.md" />
+        <option value="$PROJECT_DIR$/content/post/knight_vs_cubameduza/index.md" />
+        <option value="$PROJECT_DIR$/content/post/king_pokazivaet_pajam_kto_tut_glavnii/index.md" />
+        <option value="$PROJECT_DIR$/themes/nla/layouts/post/single.html" />
+        <option value="$PROJECT_DIR$/content/post/queen_game_in_necessary_roughness/index.md" />
+        <option value="$PROJECT_DIR$/content/post/zhukov_v_roli_zhukova/index.md" />
+        <option value="$PROJECT_DIR$/themes/nla/layouts/post/post.html" />
+        <option value="$PROJECT_DIR$/themes/nla/layouts/shortcodes/clear-vimeo.html" />
+        <option value="$PROJECT_DIR$/content/post/knight_pentacles_maid_in_america/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/page_of_swords/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/queen_of_swords/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/king_of_cups/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/knight_of_cups/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/queen_of_cups/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/king_of_pentacles/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/knight_of_pentacles/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/page_of_pentacles/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/queen_of_pentacles/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/king_of_wands/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/knight_of_wands/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/page_of_wands/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/queen_of_wands/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/king_of_swords/index.md" />
+        <option value="$PROJECT_DIR$/content/post/wisest_man/index.md" />
+        <option value="$PROJECT_DIR$/content/post/man_made_of_people/index.md" />
+        <option value="$PROJECT_DIR$/themes/nla/static/assets/css/my-style-new.css" />
+        <option value="$PROJECT_DIR$/content/post/seven_psychopaths/index.md" />
+        <option value="$PROJECT_DIR$/content/post/rational_vs_irrationality/index.md" />
+        <option value="$PROJECT_DIR$/content/archetype/knight_of_swords/index.md" />
+        <option value="$PROJECT_DIR$/content/post/about_suits/index.md" />
+        <option value="$PROJECT_DIR$/themes/nla/layouts/partials/footer.html" />
+        <option value="$PROJECT_DIR$/content/post/tim_hunter/index.md" />
+        <option value="$PROJECT_DIR$/content/post/distinguish_differences/index.md" />
       </list>
     </option>
   </component>
@@ -279,10 +309,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="25" />
-    <option name="width" value="1416" />
-    <option name="height" value="811" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -595,9 +624,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -605,54 +632,12 @@
               <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
               <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="archetype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="archetype" type="462c0819:PsiDirectoryNode" />
-              <item name="queen_of_wands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="nla" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="nla" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socion4x4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socion4x4" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="nla" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -672,17 +657,17 @@
     <property name="go.sdk.automatically.set" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content/archetype/page_of_wands/images" />
-      <recent name="$PROJECT_DIR$/content/archetype" />
-      <recent name="$PROJECT_DIR$/content/archetype/knight_of_wands/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/content/archetype/knight_of_swords" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/content/archetype/knight_of_swords/images" />
       <recent name="$PROJECT_DIR$/static/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/post" />
+      <recent name="$PROJECT_DIR$/themes/nla/layouts/shortcodes" />
+      <recent name="$PROJECT_DIR$/themes/nla/layouts" />
+      <recent name="$PROJECT_DIR$/themes/nla/layouts/post" />
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -806,16 +791,34 @@
       <updated>1530208561022</updated>
       <workItem from="1530208562522" duration="27745000" />
       <workItem from="1530452247047" duration="5489000" />
-      <workItem from="1530815445732" duration="18269000" />
+      <workItem from="1530815445732" duration="37072000" />
+      <workItem from="1531203398725" duration="4339000" />
+      <workItem from="1531334819978" duration="1735000" />
+      <workItem from="1531380086001" duration="515000" />
+      <workItem from="1531424210465" duration="228000" />
+      <workItem from="1531505807194" duration="2517000" />
+      <workItem from="1531567922615" duration="617000" />
+      <workItem from="1531637232889" duration="589000" />
+      <workItem from="1531944498932" duration="2520000" />
+      <workItem from="1532374460059" duration="3651000" />
+      <workItem from="1532430307427" duration="6810000" />
+      <workItem from="1532676423189" duration="2706000" />
+      <workItem from="1532698278085" duration="39000" />
+      <workItem from="1532779868702" duration="2718000" />
+      <workItem from="1532951717714" duration="4554000" />
+      <workItem from="1533827574007" duration="3835000" />
+      <workItem from="1533919388591" duration="309000" />
+      <workItem from="1534319493807" duration="4918000" />
+      <workItem from="1535089445004" duration="3224000" />
+      <workItem from="1537178188692" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51503000" />
+    <option name="totallyTimeSpent" value="116159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="25" width="1416" height="811" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -829,10 +832,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21387696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -845,6 +847,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -860,313 +863,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/partials/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/tarot/queen_of_cups_lg.jpg">
+    <entry file="file://$PROJECT_DIR$/content/post/zhukov_v_roli_zhukova/images/title.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/post/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/post/second.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/course/biz_words/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/post/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/course/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/my-style.css" />
-    <entry file="file://$PROJECT_DIR$/public/index.xml" />
-    <entry file="file://$PROJECT_DIR$/themes/nla/theme.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/static/assets/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/layout.css" />
-    <entry file="file://$PROJECT_DIR$/public/CNAME" />
-    <entry file="file://$PROJECT_DIR$/public/lock.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/my-style.css" />
-    <entry file="file://$PROJECT_DIR$/content/post/about_game/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_swords/images/after_first_func_section.jpg">
+    <entry file="file://$PROJECT_DIR$/content/post/mr_freeman/images/title.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_swords/images/after_third_func_section.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../edubot_pro_site_source/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/page_of_swords/images/ps_after_first_func_section.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/archetypes/post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/archetypes/default.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/shortcodes/img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/static/assets/css/my-style-new.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/first.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/static/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/_default/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/nla/layouts/archetype/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="116" column="104" lean-forward="false" selection-start-line="116" selection-start-column="104" selection-end-line="116" selection-end-column="104" />
-          <folding>
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#8655#13949#0" expanded="false" />
-            <element signature="e#14009#14065#0" expanded="false" />
-            <element signature="e#14100#14798#0" expanded="false" />
-            <element signature="e#14835#15508#0" expanded="false" />
-            <element signature="e#17130#20370#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="2353">
+          <caret line="383" column="16" lean-forward="false" selection-start-line="383" selection-start-column="16" selection-end-line="383" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/king_of_cups/index.md">
+    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/shortcodes/clear-vimeo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/zhukov_v_roli_zhukova/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="119" lean-forward="false" selection-start-line="5" selection-start-column="119" selection-end-line="5" selection-end-column="119" />
-            <folding />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="128" lean-forward="false" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="128" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/king_of_swords/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="116" lean-forward="false" selection-start-line="5" selection-start-column="116" selection-end-line="5" selection-end-column="116" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
+    <entry file="file://$PROJECT_DIR$/content/post/about_suits/images/image_04.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/king_of_wands/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="115" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
+    <entry file="file://$PROJECT_DIR$/content/post/about_suits/images/title.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_cups/index.md">
+    <entry file="file://$PROJECT_DIR$/content/post/knight_pentacles_maid_in_america/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="118" lean-forward="false" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_wands/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_swords/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="96" lean-forward="false" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_pentacles/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="118" lean-forward="false" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/page_of_cups/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="119" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/page_of_pentacles/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="120" lean-forward="false" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
-            <folding />
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
@@ -1175,42 +920,8 @@
     <entry file="file://$PROJECT_DIR$/content/archetype/page_of_swords/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="117" lean-forward="false" selection-start-line="5" selection-start-column="117" selection-end-line="5" selection-end-column="117" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/page_of_wands/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="118" lean-forward="false" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_cups/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="115" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_pentacles/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="115" lean-forward="false" selection-start-line="5" selection-start-column="115" selection-end-line="5" selection-end-column="115" />
-            <folding />
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           </first_editor>
           <second_editor />
         </state>
@@ -1219,59 +930,332 @@
     <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_swords/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="116" />
-            <folding />
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="114" lean-forward="false" selection-start-line="15" selection-start-column="114" selection-end-line="15" selection-end-column="114" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/archetype/king_of_pentacles/index.md">
+    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/post/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="73" column="106" lean-forward="false" selection-start-line="73" selection-start-column="106" selection-end-line="73" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/king_of_cups/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="119" lean-forward="false" selection-start-line="5" selection-start-column="119" selection-end-line="5" selection-end-column="119" />
-            <folding />
+          <first_editor relative-caret-position="134">
+            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="120" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/archetype/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_cups/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="120" lean-forward="false" selection-start-line="14" selection-start-column="120" selection-end-line="14" selection-end-column="120" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="39" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/content/archetype/page_of_pentacles/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="122" lean-forward="false" selection-start-line="14" selection-start-column="122" selection-end-line="14" selection-end-column="122" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_pentacles/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="122" lean-forward="false" selection-start-line="14" selection-start-column="122" selection-end-line="14" selection-end-column="122" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/king_of_wands/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="150">
+            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="124" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_wands/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="124" lean-forward="false" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/page_of_wands/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="197">
+            <caret line="14" column="124" lean-forward="false" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/archetype/queen_of_wands/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="112" lean-forward="false" selection-start-line="5" selection-start-column="112" selection-end-line="5" selection-end-column="112" />
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="124" lean-forward="false" selection-start-line="14" selection-start-column="124" selection-end-line="14" selection-end-column="124" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_cups/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="120" lean-forward="false" selection-start-line="14" selection-start-column="120" selection-end-line="14" selection-end-column="120" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/wisest_man/images/title.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/king_of_pentacles/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-313">
+            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="122" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/king_of_swords/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="497">
+            <caret line="59" column="57" lean-forward="false" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/man_made_of_people/images/image_02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/seven_psychopaths/images/image_02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/nla/static/assets/css/my-style-new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/man_made_of_people/images/fb_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/wisest_man/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="287">
+            <caret line="27" column="120" lean-forward="false" selection-start-line="27" selection-start-column="120" selection-end-line="27" selection-end-column="120" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/seven_psychopaths/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="111" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_pentacles/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="139">
+            <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/rational_vs_irrationality/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="495">
+            <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/archetype/knight_of_swords/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/seven_psychopaths/images/fb_title.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="49" column="128" lean-forward="false" selection-start-line="49" selection-start-column="113" selection-end-line="49" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/distinguish_differences/images/title.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/king_pokazivaet_pajam_kto_tut_glavnii/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/about_suits/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/black_mirror_info_metabolism/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="5">
+            <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/distinguish_differences/images/fb_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/mr_freeman/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="92">
+            <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="132" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/distinguish_differences/images/image_01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/tim_hunter/images/image_02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/tim_hunter/images/image_04.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/tim_hunter/images/image_01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/tim_hunter/images/image_05.jpg" />
+    <entry file="file://$PROJECT_DIR$/content/post/tim_hunter/images/image_06.jpg" />
+    <entry file="file://$PROJECT_DIR$/content/post/tim_hunter/images/fb_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/man_made_of_people/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/distinguish_differences/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nla/layouts/partials/header.html">
+    <entry file="file://$PROJECT_DIR$/content/post/tim_hunter/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="37" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>

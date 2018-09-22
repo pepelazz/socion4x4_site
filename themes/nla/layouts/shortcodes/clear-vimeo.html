@@ -1,0 +1,15 @@
+{{ $code := .Get "code" }}
+
+{{ if $code }}
+<div style="padding:54.79% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/{{ $code}}?title=0&byline=0&portrait=0"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
+            mozallowfullscreen allowfullscreen></iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+{{ else }}
+<pre>code '{{.Get "code"}}' not found!!!</pre>
+{{ end }}
+
+
