@@ -100,8 +100,12 @@
         <div id="portfolio" class="portfolio-gutter">
 
             <div class="row">
-
-                {{ range first 10 (where .Data.Pages "Type" "post") }}
+<!--                {{ range first 5 (sort (where site.RegularPages "Type" "in" "post") ".Params.date" "desc") }}-->
+<!--                <<div class="col-md-3 col-sm-4">-->
+<!--                    <a href="{{.Permalink}}">{{.Title}}</a>-->
+<!--                </div>-->
+<!--                {{ end }}-->
+                {{ range first 10 (sort (where site.RegularPages "Type" "in" "post") ".Params.date" "desc") }}
 
                 <div class="col-md-3 col-sm-4"><!-- item -->
 
